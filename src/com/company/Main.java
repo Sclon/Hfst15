@@ -118,9 +118,9 @@ public class Main {
         Map<String, String> map = new TreeMap<>();
 
         Scanner input = new Scanner(System.in);
-        String answer = "";
-        String name = "";
-        String grade = "";
+        String answer;
+        String name;
+        String grade;
 
         for (;;) {
             System.out.println("add/remove/modify/print/quit");
