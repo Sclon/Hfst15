@@ -113,8 +113,56 @@ public class Main {
         return num1;
     }
 
-    public static void main(String[] args) {
+    public static long timeTreeSet(String file) {
+        long result = 0;
+        try {
+            Scanner scanner = new Scanner(new File(file));
+            TreeSet<String> ts = new TreeSet<>();
+            scanner.useDelimiter("[^a-zA-z]+");
+            long startTime = System.currentTimeMillis();
+            while (scanner.hasNext()) {
+                ts.add(scanner.next());
+            }
+            System.out.println(ts);
+            long endTime = System.currentTimeMillis();
+            result = endTime - startTime;
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
 
+    public static long timeHashSet(String file) {
+        long result = 0;
+        try {
+            Scanner scanner = new Scanner(new File(file));
+            HashSet<String> hs = new HashSet<>();
+            scanner.useDelimiter("[^a-zA-z]+");
+            long startTime = System.currentTimeMillis();
+            while (scanner.hasNext()) {
+                hs.add(scanner.next());
+            }
+            System.out.println(hs);
+            long endTime = System.currentTimeMillis();
+            result = endTime - startTime;
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        
+
+        /*
+        long treeset = timeTreeSet("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\warNpeace.txt");
+        long hashset = timeHashSet("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\warNpeace.txt");
+
+        System.out.println("TreeSet took: " + treeset);
+        System.out.println("HashSet took: " + hashset);
+         */
+
+        /*
         Map<String, String> map = new TreeMap<>();
 
         Scanner input = new Scanner(System.in);
@@ -156,6 +204,7 @@ public class Main {
                     break;
             }
         }
+         */
 
         //sieveOfEratosthenes(87);
 

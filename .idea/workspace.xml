@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c5d5e98-4ca6-40f9-baea-ff5e354633c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/txt/warNpeace.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mycodeschool/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mycodeschool/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +32,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/txt" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\flori\IdeaProjects\mycodeschool\txt" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\flori\IdeaProjects\mycodeschool\txt" />
     </key>
@@ -74,7 +80,8 @@
       <updated>1564672841243</updated>
       <workItem from="1564672844169" duration="12261000" />
       <workItem from="1564752839770" duration="5653000" />
-      <workItem from="1564833517885" duration="10477000" />
+      <workItem from="1564833517885" duration="11334000" />
+      <workItem from="1564926731951" duration="2059000" />
     </task>
     <servers />
   </component>
@@ -86,7 +93,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
