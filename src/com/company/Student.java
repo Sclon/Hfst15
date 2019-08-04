@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Objects;
+
 public class Student {
     private String name;
     private String grade;
@@ -23,5 +25,26 @@ public class Student {
 
     public void setGrade(String grade) {
         this.grade = grade;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (o == null) {
+            return false;
+        }
+        if (!(o instanceof Student)) {
+            return false;
+        }
+        return ((Student)o).name == this.name;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name);
+    }
+
+    @Override
+    public String toString() {
+        return name + " " + grade;
     }
 }

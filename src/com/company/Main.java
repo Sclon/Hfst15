@@ -203,8 +203,20 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        Student s1 = new Student("Pieter", "A");
+        Student s2 = new Student("James", "B");
+        Student s3 = new Student("Richard", "C");
+        Student s4 = new Student("Pieter", "D");
 
-        findSameHashcode("..\\mycodeschool\\txt\\warNpeace.txt");
+        HashSet<Student> students = new HashSet<>();
+        students.add(s1);
+        students.add(s2);
+        students.add(s3);
+        students.add(s4);
+
+        System.out.println(students);
+
+        //findSameHashcode("..\\mycodeschool\\txt\\warNpeace.txt");
 
         //indentifyByIndex("..\\mycodeschool\\txt\\birds.txt");
 
