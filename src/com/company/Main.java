@@ -1,6 +1,5 @@
 package com.company;
 
-import java.awt.print.PrinterGraphics;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
@@ -174,13 +173,40 @@ public class Main {
         }
     }
 
-    //for (String key : map.keySet()) {
-       // String grade = map.get(key);
-        //System.out.println(key + " " + grade);
-    //}
+    public static void findSameHashcode(String file) {
+        Map<Integer, HashSet<String>> map = new HashMap<>();
+        try {
+            Scanner scanner = new Scanner(new File(file));
+            scanner.useDelimiter("[^a-zA-z]+");
+            while (scanner.hasNext()) {
+                String word = scanner.next();
+                HashSet<String> hs = new HashSet<>();
+                if (map.containsKey(word.hashCode())) {
+                    hs = map.get(word.hashCode());
+                    hs.add(word);
+                    continue;
+                }
+                hs.add(word);
+                map.put(word.hashCode(), hs);
+            }
+
+            for (Integer key : map.keySet()) {
+                if (map.get(key).size() > 1) {
+                    HashSet<String> hs = map.get(key);
+                    System.out.println(hs);
+                    System.out.println(map.get(key).size());
+                }
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+    }
 
     public static void main(String[] args) {
-        indentifyByIndex("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\birds.txt");
+
+        findSameHashcode("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\warNpeace.txt");
+
+        //indentifyByIndex("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\birds.txt");
 
         /*
         long treeset = timeTreeSet("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\warNpeace.txt");
