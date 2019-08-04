@@ -151,8 +151,36 @@ public class Main {
         return result;
     }
 
+    public static void indentifyByIndex(String file) {
+        int counter = 1;
+        HashMap<Integer, String> hm = new HashMap<>();
+
+        try {
+            Scanner scanner = new Scanner(new File(file));
+            scanner.useDelimiter("[^A-Za-z0-9_]+");
+            while (scanner.hasNext()) {
+                hm.put(counter, scanner.next());
+                counter++;
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        for (Integer key : hm.keySet()) {
+            String value = hm.get(key);
+            if (value.equals("170")) {
+                System.out.println(key);
+            }
+        }
+    }
+
+    //for (String key : map.keySet()) {
+       // String grade = map.get(key);
+        //System.out.println(key + " " + grade);
+    //}
+
     public static void main(String[] args) {
-        
+        indentifyByIndex("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\birds.txt");
 
         /*
         long treeset = timeTreeSet("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\warNpeace.txt");
@@ -198,7 +226,7 @@ public class Main {
                     break;
                 case "print":
                     for (String key : map.keySet()) {
-                        String n = map.get(key);
+                        String grade = map.get(key);
                         System.out.println(key + " " + n);
                     }
                     break;
