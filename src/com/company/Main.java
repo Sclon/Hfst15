@@ -204,13 +204,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        findSameHashcode("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\warNpeace.txt");
+        findSameHashcode("..\\mycodeschool\\txt\\warNpeace.txt");
 
-        //indentifyByIndex("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\birds.txt");
+        //indentifyByIndex("..\\mycodeschool\\txt\\birds.txt");
 
         /*
-        long treeset = timeTreeSet("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\warNpeace.txt");
-        long hashset = timeHashSet("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\warNpeace.txt");
+        long treeset = timeTreeSet("..\\mycodeschool\\txt\\warNpeace.txt");
+        long hashset = timeHashSet("..\\mycodeschool\\txt\\warNpeace.txt");
 
         System.out.println("TreeSet took: " + treeset);
         System.out.println("HashSet took: " + hashset);
@@ -311,7 +311,7 @@ public class Main {
          */
 
         /*
-        Set<String> treeset = readText("C:\\Users\\flori\\IdeaProjects\\mycodeschool\\txt\\birds.txt");
+        Set<String> treeset = readText("..\\IdeaProjects\\mycodeschool\\txt\\birds.txt");
         System.out.println(treeset);
         System.out.println(treeset.size());
          */
