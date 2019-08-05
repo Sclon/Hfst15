@@ -1,7 +1,5 @@
 package com.company;
 
-import java.util.Objects;
-
 public class Student {
     private String name;
     private String grade;
@@ -35,12 +33,15 @@ public class Student {
         if (!(o instanceof Student)) {
             return false;
         }
-        return ((Student)o).name == this.name;
+        Student obj = (Student) o;
+        return obj.name == this.name;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name);
+        int result = 17;
+        result = 31 * result + name.hashCode();
+        return result;
     }
 
     @Override

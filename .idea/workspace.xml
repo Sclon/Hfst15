@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c5d5e98-4ca6-40f9-baea-ff5e354633c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/LabeledPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/company/LabeledPointTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mycodeschool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mycodeschool.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mycodeschool/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mycodeschool/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mycodeschool/com/company/Street.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mycodeschool/com/company/Street.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mycodeschool/com/company/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mycodeschool/com/company/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mycodeschool/com/company/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mycodeschool/com/company/Task.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Street.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Street.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Task.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -27,16 +36,28 @@
   <component name="ProjectId" id="1OpS2yUX2Wr5wj6VmX35yp5RypJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/txt" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\flori\IdeaProjects\mycodeschool\txt" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\flori\IdeaProjects\mycodeschool\txt" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\flori\IdeaProjects\mycodeschool\txt" />
     </key>
   </component>
@@ -52,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="mycodeschool" />
@@ -63,8 +84,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LabeledPointTest.testEqualsAndHashcode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mycodeschool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.company" />
+      <option name="MAIN_CLASS_NAME" value="com.company.LabeledPointTest" />
+      <option name="METHOD_NAME" value="testEqualsAndHashcode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LabeledPointTest.testEqualsAndHashcode" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -82,7 +120,8 @@
       <workItem from="1564672844169" duration="12261000" />
       <workItem from="1564752839770" duration="5653000" />
       <workItem from="1564833517885" duration="11334000" />
-      <workItem from="1564926731951" duration="6882000" />
+      <workItem from="1564926731951" duration="8084000" />
+      <workItem from="1565005835120" duration="6252000" />
     </task>
     <servers />
   </component>

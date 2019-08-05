@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.Objects;
 import java.util.Stack;
 
 public class Street {
@@ -22,6 +23,7 @@ public class Street {
     public void peek() {
         cars.peek();
     }
+
 
     @Override
     public String toString() {

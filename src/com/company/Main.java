@@ -203,6 +203,33 @@ public class Main {
     }
 
     public static void main(String[] args) {
+
+        
+
+        /*
+        HashSet<LabeledPoint> hashSetLabelPoint = new HashSet<>();
+        LabeledPoint lp1 = new LabeledPoint(5,5,"Label A");
+        LabeledPoint lp2 = new LabeledPoint(5,5,"Label B");
+        LabeledPoint lp3 = new LabeledPoint(5,5,"Label C");
+        LabeledPoint lp4 = new LabeledPoint(5,5,"Label D");
+
+        hashSetLabelPoint.add(lp1);
+        hashSetLabelPoint.add(lp2);
+        hashSetLabelPoint.add(lp3);
+        hashSetLabelPoint.add(lp4);
+        System.out.println(hashSetLabelPoint);
+         */
+
+        /*
+        BankAccount ba1 = new BankAccount(100.50, "THA23OWL");
+        BankAccount ba2 = new BankAccount(984.32, "THA23OWL");
+        HashSet<BankAccount> hsBA = new HashSet<>();
+        hsBA.add(ba1);
+        hsBA.add(ba2);
+        System.out.println(hsBA);
+         */
+
+        /*
         Student s1 = new Student("Pieter", "A");
         Student s2 = new Student("James", "B");
         Student s3 = new Student("Richard", "C");
@@ -215,6 +242,7 @@ public class Main {
         students.add(s4);
 
         System.out.println(students);
+         */
 
         //findSameHashcode("..\\mycodeschool\\txt\\warNpeace.txt");
 

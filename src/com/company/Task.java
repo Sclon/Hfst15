@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Objects;
+
 public class Task implements Comparable<Task>{
     private int priority;
     private String description;
