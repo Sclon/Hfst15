@@ -202,9 +202,27 @@ public class Main {
         }
     }
 
+    private static boolean isBalanced(String html) {
+        Stack<Character> stack = new Stack<>();
+        String[] words = html.split(" ");
+        for (int i = 0; i < words.length; i++) {
+            if (words[i].charAt(0) == '<' && words[i].charAt(1) != '/') {
+                stack.push(words[i].charAt(i));
+            } else {
+                if (stack.isEmpty()) {
+                    return false;
+                }
+                stack.pop();
+            }
+        }
+        return stack.size() == 0;
+    }
+
     public static void main(String[] args) {
 
-
+        String str = "<p> <ul> <il> </il> </ul> </p>";
+        boolean b = isBalanced(str);
+        System.out.println(b);
 
         /*
         HashSet<LabeledPoint> hashSetLabelPoint = new HashSet<>();

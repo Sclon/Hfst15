@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8c5d5e98-4ca6-40f9-baea-ff5e354633c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mycodeschool/com/company/LabeledPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mycodeschool/com/company/LabeledPoint.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/mycodeschool/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mycodeschool/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/mycodeschool/com/company/LabeledPointTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/mycodeschool/com/company/LabeledPointTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/LabeledPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/LabeledPoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/company/LabeledPointTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/company/LabeledPointTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LabeledPointTest.testComparable">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="mycodeschool" />
@@ -112,8 +108,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LabeledPointTest.testComparable" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.LabeledPointTest.testComparable" />
         <item itemvalue="JUnit.LabeledPointTest.testEqualsAndHashcode" />
       </list>
     </recent_temporary>
@@ -132,7 +128,7 @@
       <workItem from="1564752839770" duration="5653000" />
       <workItem from="1564833517885" duration="11334000" />
       <workItem from="1564926731951" duration="8084000" />
-      <workItem from="1565005835120" duration="7872000" />
+      <workItem from="1565005835120" duration="9238000" />
     </task>
     <servers />
   </component>
